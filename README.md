@@ -70,7 +70,7 @@ To use these datasets and scripts:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/kris/datasets.git
+   git clone https://github.com/Kris-Nale314/datasets.git
    cd datasets
    ```
 
