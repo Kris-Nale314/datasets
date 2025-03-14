@@ -32,7 +32,7 @@ The FMP Advanced Fetcher is a comprehensive toolkit designed for building robust
 
 ```bash
 # Clone the repository
-git clone https://github.com/kris/datasets.git
+git clone https://github.com/Kris-Nale314/datasets.git
 cd datasets
 
 # Install dependencies
