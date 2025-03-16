@@ -1,10 +1,15 @@
-# 🗃️ Datasets
+#           🗃️ Datasets
 
-> Where data dreams come true! A delightful collection of datasets and data generation scripts for all your AI adventures.
+<div align="center">
+  <img src="logo.svg" alt="Datasets Logo" width="400" height="400">
+</div>
+
+
+> Where data dreams come true! A collection of datasets and data generation scripts for your AI adventures.
 
 ## 🌟 Overview
 
-Welcome to the `datasets` repository! This is my personal treasure trove of datasets and data generation scripts that I've created, curated, and collected throughout my AI journey. Whether you're looking for financial data from FMP API, text corpora for NLP, or utilities to wrangle your own datasets into submission, you'll find it all neatly organized here.
+Welcome to the `datasets` repository! This is my personal treasure trove of datasets and data generation scripts *that I am in the process of open sourcing,* and that I've created, curated, and collected throughout my AI journey. Whether you're looking for financial data from FMP API, text corpora for NLP, or utilities to wrangle your own datasets into submission, you'll find it all neatly organized here.
 
 ## 📂 Repository Structure
 

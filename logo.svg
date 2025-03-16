@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- White background -->
+  <rect width="300" height="300" fill="#ffffff" />
+  
+  <!-- Central circle container -->
+  <circle cx="150" cy="150" r="110" fill="#f8f9fa" stroke="#dfe1e5" stroke-width="2" />
+  
+  <!-- Bar chart element (blue) -->
+  <g transform="translate(105, 85) rotate(-10)">
+    <rect x="0" y="0" width="70" height="70" rx="5" fill="#ffffff" stroke="#4285f4" stroke-width="2" />
+    <rect x="10" y="45" width="10" height="15" rx="2" fill="#4285f4" />
+    <rect x="25" y="30" width="10" height="30" rx="2" fill="#4285f4" />
+    <rect x="40" y="15" width="10" height="45" rx="2" fill="#4285f4" />
+    <rect x="55" y="25" width="10" height="35" rx="2" fill="#4285f4" />
+  </g>
+  
+  <!-- Spreadsheet/Grid element (orange) -->
+  <g transform="translate(160, 110) rotate(15)">
+    <rect x="0" y="0" width="80" height="60" rx="5" fill="#ffffff" stroke="#ff9800" stroke-width="2" />
+    <line x1="0" y1="15" x2="80" y2="15" stroke="#ff9800" stroke-width="1" />
+    <line x1="0" y1="30" x2="80" y2="30" stroke="#ff9800" stroke-width="1" />
+    <line x1="0" y1="45" x2="80" y2="45" stroke="#ff9800" stroke-width="1" />
+    <line x1="20" y1="0" x2="20" y2="60" stroke="#ff9800" stroke-width="1" />
+    <line x1="40" y1="0" x2="40" y2="60" stroke="#ff9800" stroke-width="1" />
+    <line x1="60" y1="0" x2="60" y2="60" stroke="#ff9800" stroke-width="1" />
+  </g>
+  
+  <!-- Pie chart element (green) -->
+  <g transform="translate(95, 130)">
+    <circle cx="30" cy="30" r="30" fill="#ffffff" stroke="#0f9d58" stroke-width="2" />
+    <path d="M30,30 L30,0 A30,30 0 0,1 60,30 Z" fill="#0f9d58" />
+    <path d="M30,30 L60,30 A30,30 0 0,1 15,50 Z" fill="#0f9d58" opacity="0.7" />
+    <path d="M30,30 L15,50 A30,30 0 0,1 30,0 Z" fill="#0f9d58" opacity="0.4" />
+  </g>
+  
+  <!-- Scatter plot element (purple) -->
+  <g transform="translate(145, 145)">
+    <rect x="0" y="0" width="60" height="60" rx="5" fill="#ffffff" stroke="#673ab7" stroke-width="2" />
+    <line x1="0" y1="60" x2="60" y2="60" stroke="#673ab7" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#673ab7" stroke-width="1.5" />
+    <circle cx="15" cy="20" r="3" fill="#673ab7" />
+    <circle cx="25" cy="40" r="3" fill="#673ab7" />
+    <circle cx="35" cy="15" r="3" fill="#673ab7" />
+    <circle cx="45" cy="30" r="3" fill="#673ab7" />
+    <circle cx="10" cy="45" r="3" fill="#673ab7" />
+    <circle cx="50" cy="10" r="3" fill="#673ab7" />
+  </g>
+  
+  <!-- Line graph element (red) -->
+  <g transform="translate(85, 180) rotate(-5)">
+    <rect x="0" y="0" width="80" height="45" rx="5" fill="#ffffff" stroke="#ea4335" stroke-width="2" />
+    <polyline points="5,35 15,20 30,25 45,10 60,15 75,5" fill="none" stroke="#ea4335" stroke-width="2" />
+    <circle cx="15" cy="20" r="2" fill="#ea4335" />
+    <circle cx="30" cy="25" r="2" fill="#ea4335" />
+    <circle cx="45" cy="10" r="2" fill="#ea4335" />
+    <circle cx="60" cy="15" r="2" fill="#ea4335" />
+    <circle cx="75" cy="5" r="2" fill="#ea4335" />
+  </g>
+  
+  <!-- Database element (blue) -->
+  <g transform="translate(155, 75)">
+    <ellipse cx="25" cy="10" rx="25" ry="10" fill="#ffffff" stroke="#4285f4" stroke-width="2" />
+    <path d="M0,10 L0,35 C0,41 50,41 50,35 L50,10" fill="none" stroke="#4285f4" stroke-width="2" />
+    <ellipse cx="25" cy="35" rx="25" ry="10" fill="#ffffff" stroke="#4285f4" stroke-width="2" />
+    <line x1="0" y1="22" x2="50" y2="22" stroke="#4285f4" stroke-width="1" stroke-dasharray="2,2" />
+  </g>
+  
+  <!-- Repository name -->
+  <text x="150" y="260" font-family="Arial, sans-serif" font-weight="bold" font-size="24" text-anchor="middle" fill="#4285f4">datasets</text>
+</svg>
