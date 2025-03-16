@@ -6,7 +6,7 @@
 
         
 <div align="center">
-  <h1>"🗃️    Datasets    🎯"</h1>
+  <h1> 🗃️    Datasets    🎯 </h1>
 </div>
 
 > Where data dreams come true! A collection of datasets and data generation scripts for your AI adventures.
