@@ -1,7 +1,7 @@
 #           🗃️ Datasets
 
 <div align="center">
-  <img src="logo.svg" alt="Datasets Logo" width="400" height="400">
+  <img src="logo.svg" alt="Datasets Logo" width="200" >
 </div>
 
 
