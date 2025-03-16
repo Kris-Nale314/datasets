@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" rx="50" fill="#f0f9ff" />
+  
+  <!-- Decorative circles in background -->
+  <circle cx="50" cy="50" r="80" fill="#e0f2fe" opacity="0.7" />
+  <circle cx="350" cy="350" r="80" fill="#dbeafe" opacity="0.7" />
+  <circle cx="350" cy="50" r="30" fill="#bfdbfe" opacity="0.5" />
+  <circle cx="50" cy="350" r="30" fill="#bfdbfe" opacity="0.5" />
+  
+  <!-- Central network of agents -->
+  <g transform="translate(200 200)">
+    <!-- Central hub representing main agent -->
+    <circle cx="0" cy="0" r="40" fill="#3b82f6" />
+    <circle cx="0" cy="0" r="35" fill="#2563eb" />
+    <circle cx="0" cy="0" r="30" fill="#1d4ed8" />
+    
+    <!-- Agent 1 -->
+    <g transform="rotate(0)">
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#93c5fd" stroke-width="4" />
+      <circle cx="0" cy="-90" r="20" fill="#60a5fa" />
+      <circle cx="0" cy="-90" r="15" fill="#3b82f6" />
+    </g>
+    
+    <!-- Agent 2 -->
+    <g transform="rotate(72)">
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#93c5fd" stroke-width="4" />
+      <circle cx="0" cy="-90" r="20" fill="#4ade80" />
+      <circle cx="0" cy="-90" r="15" fill="#22c55e" />
+    </g>
+    
+    <!-- Agent 3 -->
+    <g transform="rotate(144)">
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#93c5fd" stroke-width="4" />
+      <circle cx="0" cy="-90" r="20" fill="#facc15" />
+      <circle cx="0" cy="-90" r="15" fill="#eab308" />
+    </g>
+    
+    <!-- Agent 4 -->
+    <g transform="rotate(216)">
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#93c5fd" stroke-width="4" />
+      <circle cx="0" cy="-90" r="20" fill="#f97316" />
+      <circle cx="0" cy="-90" r="15" fill="#ea580c" />
+    </g>
+    
+    <!-- Agent 5 -->
+    <g transform="rotate(288)">
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#93c5fd" stroke-width="4" />
+      <circle cx="0" cy="-90" r="20" fill="#ec4899" />
+      <circle cx="0" cy="-90" r="15" fill="#db2777" />
+    </g>
+    
+    <!-- Connecting lines between agents (forming a pentagon) -->
+    <path d="M 0,-90 L 85.56,-26.29 L 52.9,72.65 L -52.9,72.65 L -85.56,-26.29 Z" 
+          fill="none" stroke="#93c5fd" stroke-width="3" stroke-dasharray="5,5" />
+    
+    <!-- Decorative orbiting particles -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" 
+                        from="0 0 0" to="360 0 0" 
+                        dur="20s" repeatCount="indefinite" />
+      <circle cx="0" cy="-120" r="5" fill="#a5b4fc" />
+      <circle cx="120" cy="0" r="5" fill="#c4b5fd" />
+      <circle cx="0" cy="120" r="5" fill="#f9a8d4" />
+      <circle cx="-120" cy="0" r="5" fill="#fcd34d" />
+    </g>
+  </g>
+  
+  <!-- Text "Agentic Explorer" -->
+  <g transform="translate(200, 330)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+          text-anchor="middle" fill="#1e40af">Agentic Explorer</text>
+  </g>
+</svg>

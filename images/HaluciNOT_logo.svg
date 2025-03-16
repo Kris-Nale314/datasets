@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="white" rx="20" ry="20"/>
+  
+  <!-- Circular meter background -->
+  <circle cx="200" cy="200" r="150" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="5"/>
+  
+  <!-- Meter segments - top half, red to green -->
+  <path d="M200,200 L50,200 A150,150 0 0,1 125,70.1 z" fill="#ff6b6b" opacity="0.8"/>
+  <path d="M200,200 L125,70.1 A150,150 0 0,1 275,70.1 z" fill="#ffd166" opacity="0.8"/>
+  <path d="M200,200 L275,70.1 A150,150 0 0,1 350,200 z" fill="#06d6a0" opacity="0.8"/>
+  
+  <!-- Meter pointer - pointing right into green zone -->
+  <g transform="rotate(45, 200, 200)">
+    <line x1="200" y1="200" x2="200" y2="90" stroke="#2c3e50" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="200" cy="90" r="12" fill="#2c3e50"/>
+  </g>
+  
+  <!-- Center hub -->
+  <circle cx="200" cy="200" r="25" fill="#3498db" stroke="#2c3e50" stroke-width="5"/>
+  
+  <!-- Document icons - repositioned -->
+  <g transform="translate(170, 220) scale(0.7)">
+    <rect x="10" y="10" width="70" height="90" rx="5" ry="5" fill="white" stroke="#2c3e50" stroke-width="4"/>
+    <line x1="25" y1="30" x2="65" y2="30" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    <line x1="25" y1="50" x2="65" y2="50" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+    <line x1="25" y1="70" x2="50" y2="70" stroke="#2c3e50" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Checkmark for verified content - repositioned -->
+  <g transform="translate(230, 220) scale(0.7)">
+    <circle cx="40" cy="55" r="35" fill="white" stroke="#2c3e50" stroke-width="4"/>
+    <path d="M25,55 L38,68 L60,35" fill="none" stroke="#06d6a0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Text elements - repositioned -->
+  <g transform="translate(200, 350)" text-anchor="middle">
+    <text font-family="Arial, sans-serif" font-weight="bold" font-size="36" fill="#2c3e50">HalluciNOT</text>
+  </g>
+  
+  <g transform="translate(200, 380)" text-anchor="middle">
+    <text font-family="Arial, sans-serif" font-size="16" fill="#3498db">Document-Grounded Verification</text>
+  </g>
+</svg>
