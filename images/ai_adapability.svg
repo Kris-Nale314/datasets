@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" style="font-family: Arial, sans-serif;">
+  <!-- Title and Subtitle -->
+  <text x="450" y="50" font-size="28" font-weight="bold" text-anchor="middle">AI Adaptability Maturity Model</text>
+  <text x="450" y="80" font-size="18" text-anchor="middle" font-style="italic">From Rigid Scripts to Reusable Components</text>
+  
+  <!-- Background rectangles for levels with gradient colors and borders - with progressive widths -->
+  <!-- Level 4 - now purple - 10% wider -->
+  <rect x="65" y="100" width="770" height="120" rx="10" fill="#9999ff" opacity="0.7" stroke="#6666cc" stroke-width="2"/>
+  <!-- Level 3 - now blue - standard width -->
+  <rect x="100" y="240" width="700" height="120" rx="10" fill="#99ccff" opacity="0.7" stroke="#6699cc" stroke-width="2"/>
+  <!-- Level 2 - now yellow - 10% narrower -->
+  <rect x="135" y="380" width="630" height="120" rx="10" fill="#ffd966" opacity="0.7" stroke="#cc9933" stroke-width="2"/>
+  <!-- Level 1 - now orange - 20% narrower -->
+  <rect x="170" y="520" width="560" height="120" rx="10" fill="#ff9966" opacity="0.7" stroke="#cc6633" stroke-width="2"/>
+  
+  <!-- Level 1: Ad-hoc Scripts -->
+  <text x="190" y="545" font-size="20" font-weight="bold">Level 1: Ad-hoc Scripts</text>
+  <text x="190" y="570" font-size="16" font-style="italic">Maturity Stage: "Initial"</text>
+  <text x="370" y="570" font-size="16" font-weight="bold">Key Characteristics:</text>
+  
+  <!-- Level 1 Key Characteristics -->
+  <text x="370" y="595" font-size="14">• One-off implementations for specific use cases</text>
+  <text x="370" y="615" font-size="14">• Direct API calls to specific models</text>
+  
+  <!-- Level 1 Icon: Single document -->
+  <rect x="665" y="535" width="40" height="50" rx="2" fill="white" stroke="#333"/>
+  <line x1="675" y1="545" x2="695" y2="545" stroke="#333" stroke-width="1"/>
+  <line x1="675" y1="555" x2="695" y2="555" stroke="#333" stroke-width="1"/>
+  <line x1="675" y1="565" x2="695" y2="565" stroke="#333" stroke-width="1"/>
+  <line x1="675" y1="575" x2="685" y2="575" stroke="#333" stroke-width="1"/>
+  
+  <!-- Level 2: Partial Modularity -->
+  <text x="160" y="405" font-size="20" font-weight="bold">Level 2: Partial Modularity</text>
+  <text x="160" y="430" font-size="16" font-style="italic">Maturity Stage: "Emerging"</text>
+  <text x="370" y="430" font-size="16" font-weight="bold">Key Characteristics:</text>
+  
+  <!-- Level 2 Key Characteristics -->
+  <text x="370" y="455" font-size="14">• Basic separation of concerns</text>
+  <text x="370" y="475" font-size="14">• Some helper functions reused across projects</text>
+  
+  <!-- Level 2 Icon: Loosely connected modules -->
+  <rect x="700" y="395" width="25" height="25" rx="2" fill="white" stroke="#333"/>
+  <rect x="715" y="420" width="25" height="25" rx="2" fill="white" stroke="#333"/>
+  <rect x="685" y="420" width="25" height="25" rx="2" fill="white" stroke="#333"/>
+  <line x1="700" y1="420" x2="710" y2="410" stroke="#333" stroke-width="1"/>
+  <line x1="715" y1="430" x2="710" y2="425" stroke="#333" stroke-width="1"/>
+  
+  <!-- Level 3: Standardized Interfaces -->
+  <text x="120" y="265" font-size="20" font-weight="bold">Level 3: Standardized Interfaces</text>
+  <text x="120" y="290" font-size="16" font-style="italic">Maturity Stage: "Defined"</text>
+  <text x="350" y="290" font-size="16" font-weight="bold">Key Characteristics:</text>
+  
+  <!-- Level 3 Key Characteristics -->
+  <text x="350" y="315" font-size="14">• Consistent interfaces between components</text>
+  <text x="350" y="335" font-size="14">• Established patterns for model interactions</text>
+  
+  <!-- Level 3 Icon: Connected components -->
+  <rect x="735" y="255" width="20" height="20" rx="2" fill="white" stroke="#333"/>
+  <rect x="765" y="255" width="20" height="20" rx="2" fill="white" stroke="#333"/>
+  <rect x="735" y="285" width="20" height="20" rx="2" fill="white" stroke="#333"/>
+  <rect x="765" y="285" width="20" height="20" rx="2" fill="white" stroke="#333"/>
+  <line x1="755" y1="265" x2="765" y2="265" stroke="#333" stroke-width="2"/>
+  <line x1="745" y1="275" x2="745" y2="285" stroke="#333" stroke-width="2"/>
+  <line x1="775" y1="275" x2="775" y2="285" stroke="#333" stroke-width="2"/>
+  <line x1="755" y1="295" x2="765" y2="295" stroke="#333" stroke-width="2"/>
+  
+  <!-- Level 4: Full Component Architecture -->
+  <text x="85" y="125" font-size="20" font-weight="bold">Level 4: Full Component Architecture</text>
+  <text x="85" y="150" font-size="16" font-style="italic">Maturity Stage: "Optimized"</text>
+  <text x="330" y="150" font-size="16" font-weight="bold">Key Characteristics:</text>
+  
+  <!-- Level 4 Key Characteristics -->
+  <text x="330" y="175" font-size="14">• Comprehensive component library</text>
+  <text x="330" y="195" font-size="14">• Capability-aware abstractions</text>
+  
+  <!-- Level 4 Icon: Complete ecosystem -->
+  <rect x="785" y="115" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="805" y="115" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="765" y="115" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="785" y="135" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="805" y="135" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="765" y="135" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="785" y="155" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="805" y="155" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <rect x="765" y="155" width="15" height="15" rx="2" fill="white" stroke="#333"/>
+  <line x1="800" y1="122" x2="805" y2="122" stroke="#333" stroke-width="1"/>
+  <line x1="780" y1="122" x2="785" y2="122" stroke="#333" stroke-width="1"/>
+  <line x1="792" y1="130" x2="792" y2="135" stroke="#333" stroke-width="1"/>
+  <line x1="812" y1="130" x2="812" y2="135" stroke="#333" stroke-width="1"/>
+  <line x1="772" y1="130" x2="772" y2="135" stroke="#333" stroke-width="1"/>
+  <line x1="800" y1="142" x2="805" y2="142" stroke="#333" stroke-width="1"/>
+  <line x1="780" y1="142" x2="785" y2="142" stroke="#333" stroke-width="1"/>
+  <line x1="792" y1="150" x2="792" y2="155" stroke="#333" stroke-width="1"/>
+  <line x1="812" y1="150" x2="812" y2="155" stroke="#333" stroke-width="1"/>
+  <line x1="772" y1="150" x2="772" y2="155" stroke="#333" stroke-width="1"/>
+</svg>

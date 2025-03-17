@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9fafc" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <!-- Title removed as requested -->
+  
+  <!-- Component 1: Model Abstraction Layer (Top Left) -->
+  <g>
+    <!-- Component Box -->
+    <rect x="60" y="190" width="300" height="140" rx="8" ry="8" fill="#4285f4" opacity="0.9"/>
+    <rect x="65" y="195" width="290" height="130" rx="6" ry="6" fill="#e8f0fe" opacity="0.9"/>
+    
+    <!-- Color Slash -->
+    <path d="M65,195 L355,195 L325,240 L65,240 Z" fill="#4285f4" opacity="0.2"/>
+    
+    <!-- Icon: Layered rectangles -->
+    <rect x="85" y="215" width="40" height="20" fill="#4285f4" opacity="0.9"/>
+    <rect x="90" y="210" width="40" height="20" fill="#4285f4" opacity="0.7"/>
+    <rect x="95" y="205" width="40" height="20" fill="#4285f4" opacity="0.5"/>
+    
+    <!-- Text -->
+    <text x="210" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Model Abstraction Layer
+    </text>
+    
+    <!-- Key Points -->
+    <text x="95" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Isolates model-specific implementation</text>
+    <text x="95" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Handles retries, caching, and recovery</text>
+    <text x="95" y="295" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Enables seamless model switching</text>
+  </g>
+  
+  <!-- Component 2: Integrated Evaluation (Top Center) -->
+  <g>
+    <!-- Component Box -->
+    <rect x="230" y="50" width="340" height="130" rx="8" ry="8" fill="#34a853" opacity="0.9"/>
+    <rect x="235" y="55" width="330" height="120" rx="6" ry="6" fill="#e6f4ea" opacity="0.9"/>
+    
+    <!-- Color Slash -->
+    <path d="M235,55 L565,55 L535,95 L235,95 Z" fill="#34a853" opacity="0.2"/>
+    
+    <!-- Icon: Simple check icon to replace the circle -->
+    <path d="M265,80 L272,87 L280,70" stroke="#34a853" stroke-width="3" fill="none"/>
+    
+    <!-- Text -->
+    <text x="400" y="82" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Integrated Evaluation
+    </text>
+    
+    <!-- Key Points -->
+    <text x="290" y="112" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Provide objective quality metrics</text>
+    <text x="290" y="132" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Enable data-driven component selection</text>
+    <text x="290" y="152" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Support automated testing and monitoring</text>
+  </g>
+  
+  <!-- Component 3: Strategy-Based Processors (Top Right) -->
+  <g>
+    <!-- Component Box -->
+    <rect x="440" y="190" width="300" height="140" rx="8" ry="8" fill="#fbbc05" opacity="0.9"/>
+    <rect x="445" y="195" width="290" height="130" rx="6" ry="6" fill="#fef7e0" opacity="0.9"/>
+    
+    <!-- Color Slash -->
+    <path d="M445,195 L735,195 L705,240 L445,240 Z" fill="#fbbc05" opacity="0.2"/>
+    
+    <!-- Icon: Multiple connected pathways -->
+    <circle cx="465" cy="215" r="5" fill="#fbbc05"/>
+    <circle cx="485" cy="225" r="5" fill="#fbbc05"/>
+    <circle cx="495" cy="205" r="5" fill="#fbbc05"/>
+    <path d="M465,215 L485,225 L495,205 L465,215" stroke="#fbbc05" stroke-width="2" fill="none"/>
+    
+    <!-- Text -->
+    <text x="590" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Strategy-Based Processors
+    </text>
+    
+    <!-- Key Points -->
+    <text x="470" y="255" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Implement multiple unified approaches</text>
+    <text x="470" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Allow runtime strategy selection</text>
+    <text x="470" y="295" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Facilitate experimentation and optimization</text>
+  </g>
+  
+  <!-- Component 4: Rich Data Models (Bottom Left) -->
+  <g>
+    <!-- Component Box -->
+    <rect x="60" y="380" width="300" height="150" rx="8" ry="8" fill="#ea4335" opacity="0.9"/>
+    <rect x="65" y="385" width="290" height="140" rx="6" ry="6" fill="#fce8e6" opacity="0.9"/>
+    
+    <!-- Color Slash -->
+    <path d="M65,385 L355,385 L325,430 L65,430 Z" fill="#ea4335" opacity="0.2"/>
+    
+    <!-- Icon: Overlapping document shapes -->
+    <rect x="85" y="405" width="20" height="25" fill="#ea4335" opacity="0.9" rx="3" ry="3"/>
+    <rect x="90" y="402" width="20" height="25" fill="#ea4335" opacity="0.6" rx="3" ry="3"/>
+    <rect x="95" y="399" width="20" height="25" fill="#ea4335" opacity="0.3" rx="3" ry="3"/>
+    
+    <!-- Text -->
+    <text x="210" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Rich Data Models
+    </text>
+    
+    <!-- Key Points -->
+    <text x="95" y="445" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Define structured data representations</text>
+    <text x="95" y="465" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Support metadata and extensibility</text>
+    <text x="95" y="485" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Create common language between components</text>
+    <text x="95" y="505" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Enable data-driven development workflows</text>
+  </g>
+  
+  <!-- Component 5: Composable Pipelines (Bottom Right) -->
+  <g>
+    <!-- Component Box -->
+    <rect x="440" y="380" width="300" height="150" rx="8" ry="8" fill="#673ab7" opacity="0.9"/>
+    <rect x="445" y="385" width="290" height="140" rx="6" ry="6" fill="#ede7f6" opacity="0.9"/>
+    
+    <!-- Color Slash -->
+    <path d="M445,385 L735,385 L705,430 L445,430 Z" fill="#673ab7" opacity="0.2"/>
+    
+    <!-- Icon: Building blocks of different sizes -->
+    <rect x="465" y="400" width="15" height="15" fill="#673ab7" opacity="0.8"/>
+    <rect x="472" y="415" width="20" height="10" fill="#673ab7" opacity="0.6"/>
+    <rect x="483" y="402" width="10" height="20" fill="#673ab7" opacity="0.7"/>
+    
+    <!-- Text -->
+    <text x="590" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Composable Pipelines
+    </text>
+    
+    <!-- Key Points -->
+    <text x="470" y="445" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Assemble specialized components into workflows</text>
+    <text x="470" y="465" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Allow component replacement without disruption</text>
+    <text x="470" y="485" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Support conditional processing paths</text>
+  </g>
+  
+  <!-- Footer Text with Frame -->
+  <rect x="80" y="545" width="640" height="30" rx="15" ry="15" fill="#f1f3f4" stroke="#555" stroke-width="1" opacity="0.7"/>
+  <text x="400" y="565" font-family="Arial, sans-serif" font-size="16" font-style="italic" text-anchor="middle" fill="#555">
+    These core components create a foundation for continuously evolving AI capabilities
+  </text>
+</svg>

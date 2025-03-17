@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 600">
+  <!-- Background -->
+  <rect width="840" height="600" fill="#f9fafc" rx="10" ry="10"/>
+  
+  <!-- Pillar 1: Modularity with Intention -->
+  <g>
+    <!-- Pillar -->
+    <rect x="65" y="100" width="165" height="360" fill="#4285f4" opacity="0.9" rx="5" ry="5"/>
+    <rect x="70" y="105" width="155" height="350" fill="#e8f0fe" opacity="0.9" rx="3" ry="3"/>
+    <!-- Color slash accent -->
+    <path d="M70,105 L225,105 L195,160 L70,160 Z" fill="#4285f4" opacity="0.2"/>
+    
+    <!-- Pillar Capital -->
+    <path d="M55,100 L240,100 L230,80 L65,80 Z" fill="#4285f4" opacity="0.9"/>
+    
+    <!-- Icon: Puzzle pieces -->
+    <rect x="115" y="130" width="35" height="35" fill="#4285f4" opacity="0.9" rx="9" ry="9"/>
+    <rect x="140" y="140" width="35" height="35" fill="#4285f4" opacity="0.7" rx="9" ry="9"/>
+    <rect x="130" y="150" width="35" height="35" fill="#4285f4" opacity="0.5" rx="9" ry="9"/>
+    
+    <!-- Title -->
+    <text x="150" y="210" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Modularity
+    </text>
+    <text x="150" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      with Intention
+    </text>
+    
+    <!-- Key Points -->
+    <text x="85" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Identify natural</text>
+    <text x="85" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  boundaries</text>
+    <text x="85" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Separate model</text>
+    <text x="85" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  interaction from</text>
+    <text x="85" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  business logic</text>
+    <text x="85" y="390" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Focus on responsibilities,</text>
+    <text x="85" y="410" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  not arbitrary divisions</text>
+  </g>
+  
+  <!-- Pillar 2: Abstraction that Preserves Value -->
+  <g>
+    <!-- Pillar -->
+    <rect x="245" y="100" width="165" height="360" fill="#ea4335" opacity="0.9" rx="5" ry="5"/>
+    <rect x="250" y="105" width="155" height="350" fill="#fce8e6" opacity="0.9" rx="3" ry="3"/>
+    <!-- Color slash accent -->
+    <path d="M250,105 L405,105 L375,160 L250,160 Z" fill="#ea4335" opacity="0.2"/>
+    
+    <!-- Pillar Capital -->
+    <path d="M235,100 L420,100 L410,80 L245,80 Z" fill="#ea4335" opacity="0.9"/>
+    
+    <!-- Icon: Layered diamond shapes -->
+    <path d="M290,145 L320,125 L350,145 L320,165 Z" fill="#ea4335" opacity="0.9"/>
+    <path d="M295,140 L320,125 L345,140 L320,155 Z" fill="#ea4335" opacity="0.6"/>
+    <path d="M305,130 L320,125 L335,130 L320,140 Z" fill="#ea4335" opacity="0.3"/>
+    
+    <!-- Title -->
+    <text x="330" y="210" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Abstraction that
+    </text>
+    <text x="330" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Preserves Value
+    </text>
+    
+    <!-- Key Points -->
+    <text x="265" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Create interfaces that</text>
+    <text x="265" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  hide complexity while</text>
+    <text x="265" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  exposing unique model</text>
+    <text x="265" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  capabilities</text>
+    <text x="265" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Avoid reducing to lowest</text>
+    <text x="265" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  common denominator</text>
+  </g>
+  
+  <!-- Pillar 3: Standardized Interfaces -->
+  <g>
+    <!-- Pillar -->
+    <rect x="425" y="100" width="165" height="360" fill="#fbbc05" opacity="0.9" rx="5" ry="5"/>
+    <rect x="430" y="105" width="155" height="350" fill="#fef7e0" opacity="0.9" rx="3" ry="3"/>
+    <!-- Color slash accent -->
+    <path d="M430,105 L585,105 L555,160 L430,160 Z" fill="#fbbc05" opacity="0.2"/>
+    
+    <!-- Pillar Capital -->
+    <path d="M415,100 L600,100 L590,80 L425,80 Z" fill="#fbbc05" opacity="0.9"/>
+    
+    <!-- Icon: Connected blocks with expansion points -->
+    <rect x="465" y="135" width="25" height="25" fill="#fbbc05" opacity="0.9" rx="3" ry="3"/>
+    <rect x="505" y="135" width="25" height="25" fill="#fbbc05" opacity="0.9" rx="3" ry="3"/>
+    <path d="M490,147 L505,147" stroke="#fbbc05" stroke-width="3"/>
+    <circle cx="465" cy="170" r="4" fill="#fbbc05"/>
+    <circle cx="505" cy="125" r="4" fill="#fbbc05"/>
+    
+    <!-- Title -->
+    <text x="510" y="210" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Standardized
+    </text>
+    <text x="510" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Interfaces
+    </text>
+    
+    <!-- Key Points -->
+    <text x="445" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Define consistent</text>
+    <text x="445" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  contracts between</text>
+    <text x="445" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  components</text>
+    <text x="445" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Include extension</text>
+    <text x="445" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  mechanisms</text>
+    <text x="445" y="390" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Allow for enhancement</text>
+    <text x="445" y="410" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  without breaking changes</text>
+  </g>
+  
+  <!-- Pillar 4: Composition over Configuration -->
+  <g>
+    <!-- Pillar -->
+    <rect x="605" y="100" width="165" height="360" fill="#673ab7" opacity="0.9" rx="5" ry="5"/>
+    <rect x="610" y="105" width="155" height="350" fill="#ede7f6" opacity="0.9" rx="3" ry="3"/>
+    <!-- Color slash accent -->
+    <path d="M610,105 L765,105 L735,160 L610,160 Z" fill="#673ab7" opacity="0.2"/>
+    
+    <!-- Pillar Capital -->
+    <path d="M595,100 L780,100 L770,80 L605,80 Z" fill="#673ab7" opacity="0.9"/>
+    
+    <!-- Icon: Building blocks being assembled -->
+    <rect x="640" y="130" width="20" height="20" fill="#673ab7" opacity="0.7"/>
+    <rect x="660" y="140" width="25" height="25" fill="#673ab7" opacity="0.9"/>
+    <rect x="685" y="150" width="20" height="20" fill="#673ab7" opacity="0.5"/>
+    <rect x="670" y="125" width="15" height="15" fill="#673ab7" opacity="0.3"/>
+    
+    <!-- Title -->
+    <text x="690" y="210" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Composition over
+    </text>
+    <text x="690" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+      Configuration
+    </text>
+    
+    <!-- Key Points -->
+    <text x="625" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Create specialized</text>
+    <text x="625" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  components that can</text>
+    <text x="625" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  be combined</text>
+    <text x="625" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">• Prefer assembly of small</text>
+    <text x="625" y="360" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  components over</text>
+    <text x="625" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">  configuring monoliths</text>
+  </g>
+  
+  <!-- Pillar Base -->
+  <rect x="60" y="460" width="715" height="40" fill="#34a853" opacity="0.8" rx="3" ry="3"/>
+  <text x="420" y="485" font-family="Arial, sans-serif" font-size="16" font-style="italic" text-anchor="middle" fill="#fff">
+    Balancing these principles creates adaptable AI systems that evolve with technology
+  </text>
+  
+  <!-- Connecting elements between pillars - subtle arcs -->
+  <path d="M240,90 C270,70 370,70 420,90" stroke="#ddd" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M420,90 C450,70 550,70 600,90" stroke="#ddd" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Filter for subtle shadow effect -->
+  <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+    <feOffset dx="2" dy="2" result="offsetblur"/>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.2"/>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</svg>
